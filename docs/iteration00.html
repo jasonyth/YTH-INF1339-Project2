@@ -6,13 +6,13 @@
   }
 </style>
 <script>
-  function hello() {return HELLO;
+  function hello() {document.getElementById("sentinel").innerHTML='HELLO'
   }
 </script>
-<button type="button">Click Me!</button>
 </head>
 <body>
   <h3>API Project Iteration 0</h3>
+  <button type="button" onclick="hello()">Click Me!</button>
   <p id="sentinel" class="test_class">
   </p>
 </body>
